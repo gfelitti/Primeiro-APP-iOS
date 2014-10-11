@@ -21,6 +21,7 @@
 		6E73CCA91976BE25006D3FF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E73CC8B1976BE25006D3FF1 /* UIKit.framework */; };
 		6E73CCB11976BE25006D3FF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E73CCAF1976BE25006D3FF1 /* InfoPlist.strings */; };
 		6E73CCB31976BE25006D3FF1 /* PrimeiraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E73CCB21976BE25006D3FF1 /* PrimeiraTests.m */; };
+		6E73CCBE1976BF4F006D3FF1 /* VIEW2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E73CCBD1976BF4F006D3FF1 /* VIEW2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6E73CCAE1976BE25006D3FF1 /* PrimeiraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeiraTests-Info.plist"; sourceTree = "<group>"; };
 		6E73CCB01976BE25006D3FF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E73CCB21976BE25006D3FF1 /* PrimeiraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeiraTests.m; sourceTree = "<group>"; };
+		6E73CCBC1976BF4F006D3FF1 /* VIEW2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VIEW2ViewController.h; path = ../VIEW2ViewController.h; sourceTree = "<group>"; };
+		6E73CCBD1976BF4F006D3FF1 /* VIEW2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VIEW2ViewController.m; path = ../VIEW2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6E73CC991976BE25006D3FF1 /* Main.storyboard */,
 				6E73CC9C1976BE25006D3FF1 /* ViewController.h */,
 				6E73CC9D1976BE25006D3FF1 /* ViewController.m */,
+				6E73CCBC1976BF4F006D3FF1 /* VIEW2ViewController.h */,
+				6E73CCBD1976BF4F006D3FF1 /* VIEW2ViewController.m */,
 				6E73CC9F1976BE25006D3FF1 /* Images.xcassets */,
 				6E73CC8E1976BE25006D3FF1 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E73CCBE1976BF4F006D3FF1 /* VIEW2ViewController.m in Sources */,
 				6E73CC9E1976BE25006D3FF1 /* ViewController.m in Sources */,
 				6E73CC981976BE25006D3FF1 /* AppDelegate.m in Sources */,
 				6E73CC941976BE25006D3FF1 /* main.m in Sources */,
